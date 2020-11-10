@@ -14,21 +14,18 @@ The higher the score, the more "chances" someone has of winning. For example, a 
 
 ## Database Design
 
-![Contest%20App%209abd858b18844c7b8beacabccbbf281d/ContestDB.jpg](Contest%20App%209abd858b18844c7b8beacabccbbf281d/ContestDB.jpg)
+![Contest](ContestDB.jpg)
 
 ## Contest Selection
 
 Data will look something like:
 
-| Name | Score  | 
-
-| :--—-:| :——-: |
-
+Name | Score
+---- | ----
 | Joey | 5 |
-
 | David | 8 |
-
 | Matt | 7 |
+
 
 The algorithm selects 100% of the users with score 10, 90% of users with score 9 randomly, 80% of users with score of 8 randomly, and so on.
 
@@ -39,12 +36,10 @@ Let's say Dave's random number is 7.  Since it's higher than 2, Dave gets added 
 The final pool would be:
 
 | Name | 
-
-| :--—-:| 
-
+-------
 | Joey | 
-
 | David |
+
 
 From, here we'd pick a random number up to the size of the final pool (so up to 2 here).  If the number is 1, Joey wins.  If the number is 2, David wins.
 
