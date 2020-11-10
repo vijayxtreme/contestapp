@@ -21,7 +21,7 @@ The higher the score, the more "chances" someone has of winning. For example, a 
 Data will look something like:
 
 Name | Score
----- | ----
+|:---:|:---:|
 | Joey | 5 |
 | David | 8 |
 | Matt | 7 |
@@ -36,9 +36,9 @@ Let's say Dave's random number is 7.  Since it's higher than 2, Dave gets added 
 The final pool would be:
 
 | Name | 
--------
+|:-----:|
 | Joey | 
-| David |
+| David|
 
 
 From, here we'd pick a random number up to the size of the final pool (so up to 2 here).  If the number is 1, Joey wins.  If the number is 2, David wins.
